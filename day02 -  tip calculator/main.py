@@ -1,3 +1,4 @@
+# Tip Calculator
 
 print("Welcome to the tip claculator")
 
@@ -35,4 +36,4 @@ total_bill_with_tip = float(total_bill) + tip_amount
 bill_per_person = total_bill_with_tip / int(num_people)
 
 # Printing bill per person using f-string
-print(f"Each person should pay: ${bill_per_person:.2f}")
+print(f"Each person should pay: {bill_per_person:.2f}")

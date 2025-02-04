@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/antokl/proj/100_days_python_bootcamp/100_Days_Python_Bootcamp/day10 - Calculator/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from art.__main__ import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

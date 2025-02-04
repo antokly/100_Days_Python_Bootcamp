@@ -31,13 +31,10 @@ while others.lower() == "yes":
         except ValueError:
             print("Invalid input. Please enter a numerical value.")
 
-    # Store bid in dictionary
     bid_dict[bidder_name] = bid_value
 
-    # Ask if there are more bidders
     others = input("Are there any other bidders? (yes/no): ")
 
-# Determine the highest bidder
 max_bidder = search_max_bidder(bid_dict)
 
 print(f"The highest bidder is: {max_bidder} with a bid of ${bid_dict[max_bidder]}")

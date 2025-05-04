@@ -92,5 +92,6 @@ def blackjack_game():
         else:
             print("\n🤝 It's a Draw! 🤝")
 
-# Run the game
-blackjack_game()
+if __name__ == '__main__':
+    # Run the game
+    blackjack_game()

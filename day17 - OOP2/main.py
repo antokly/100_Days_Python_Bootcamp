@@ -6,12 +6,11 @@ from quiz_brain import QuizBrain
 
 question_bank = [] # list of questions objects
 
-for  question in question_data:
+for question in question_data:
     q = question["text"]
     a = question["answer"]
     question_object = Question(q, a)
     question_bank.append(question_object)
-
 
 quiz = QuizBrain(question_bank)
 
